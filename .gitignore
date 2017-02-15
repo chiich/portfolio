@@ -1,6 +1,5 @@
-.idea
+.idea§
 *.iml
 node_modules/
 public/docs/*.txt
 public/*.html
-
