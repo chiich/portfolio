@@ -1,4 +1,5 @@
 .idea§
+*/**/.bin
 *.iml
 node_modules/
 public/docs/*.txt
