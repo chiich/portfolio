@@ -1,4 +1,4 @@
-.idea§
+.idea/
 */**/.bin
 *.iml
 node_modules/

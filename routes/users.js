@@ -1,6 +1,6 @@
 var express = require('express');
 var fs = require('fs');
-var readStream = fs.createReadStream('public/docs/po3130k.txt');
+//var readStream = fs.createReadStream('public/docs/po3130k.txt');
 // var writeStream = fs.createWriteStream('public/docs/bar.txt');
 // readStream.pipe(writeStream);
 

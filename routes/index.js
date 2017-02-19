@@ -7,14 +7,15 @@ router.get('/', function (req, res, next) {
         title: 'Chie - Front-End Web Developer',
         me: "Chie",
         author: ['Chiemezie Ichongiri'],
+        meta_desc: "nigerian, norwich, greenwich, graduate, london, web developer, javascript, developer, drupal, front-end, frontend",
         author_pronounce: ["chee-a-mey-ziyeh ee-chon-ghee-rhee"],
-        personal_statement: 'Hi, ya!',
+        personal_statement: 'Announcement',
+        sub_personal_statement: 'February, 2017',
         linkedin: 'View my LinkedIn profile',
-        cv: 'View my Resum',
+        cv: 'View my (outdated) Resum',
         cv_link: "/docs/Chiemezie_Ichongiri_webCV.pdf",
         instagram: 'Snoop around my Instagram',
-        react_link: "https://facebook.github.io/react/",
-        mean_link: "http://meanjs.org/",
+        jekyll_link: "http://jekyllrb.com/",
         footer: "This site uses Bootstrap, and a NodeJS server running on an AWS EC2 Linux instance."
     });
 
