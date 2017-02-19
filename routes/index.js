@@ -7,7 +7,7 @@ router.get('/', function (req, res, next) {
         title: 'Chie - Front-End Web Developer',
         me: "Chie",
         author: ['Chiemezie Ichongiri'],
-        meta_desc: "nigerian, norwich, greenwich, graduate, london, web developer, javascript, developer, drupal, front-end, frontend",
+        meta_desc: 'nigerian, norwich, greenwich, graduate, london, web developer, javascript, developer, drupal, front-end, frontend',
         author_pronounce: ["chee-a-mey-ziyeh ee-chon-ghee-rhee"],
         personal_statement: 'Announcement',
         sub_personal_statement: 'February, 2017',
