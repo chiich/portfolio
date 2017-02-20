@@ -13,6 +13,7 @@ a:focus,
 a:hover {
     /*color: #B26B00;*/
     color: #a6e1ec;
+    cursor: pointer;
     /*color: #B24300;*/
 }
 
