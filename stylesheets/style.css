@@ -1,8 +1,16 @@
 /* Links */
 a {
     /*color: #B26B00;*/
-    color: #005ea5;
+    /*color: #005ea5;*/
     /*color: #B24300;*/
+    color: #fff; /* IE8 proofing */
+    color: rgba(255,255,255, 1.0);
+    font-weight: bold;
+}
+
+.mastfoot a {
+
+    font-weight: normal;
 }
 
 a:focus,
@@ -150,10 +158,16 @@ body {
     font-weight: bold;
 }
 
-.cover-heading{
+.cover-heading,
+.server-info,
+.server-info a {
     color: #d58512;
 }
 
+.server-info a {
+    font-weight: bold;
+    color: #d58512;
+}
 /*
  *  * Footer
  *   */
