@@ -1,0 +1,399 @@
+html {
+    box-sizing: border-box;
+    // font-size: 62.5%;
+}
+
+body {
+    background-color: #DDDDDD;
+    padding: 5px;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .inner {
+      padding: 15px;
+  }
+  
+  .footer-area p {
+    text-align: center;
+    color: #999;
+    font-size: 1rem;
+
+    padding-top: 30px;
+  }
+  
+    img {
+        max-width: 100%;
+    }
+  
+    p {
+
+    font-size: 1.2rem;
+
+        &.intro {
+            font-size: 1rem;
+            
+            strong {
+              font-size: 2.4rem;
+            }
+        }
+    }
+  
+  .container {
+    background-color: white;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+  }
+  
+  h1 {
+    // border-bottom: 3px solid #DDDDDD;
+    margin: 0;
+    padding: 0 0 15px 0;
+  }
+ 
+
+  .row {
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+  }
+  
+  .two-thirds {
+    // display: block;
+    // float: left;
+    width: 67%;
+
+  }
+  
+  .one-third {
+    // display: block;
+    // float: left;
+    width: 33%;
+
+    color: #f1f0ce;
+  }
+
+  .two-thirds,
+  .one-third {
+    margin: 0;
+    padding: 45px 0 0 0;
+    position: relative;
+    display: table-cell; /* Make elements inside the container behave like table cells */
+    vertical-align: top;
+
+    // font-size: 16px;
+
+    &::before {
+        content: 'example';
+        text-transform: uppercase;
+        background-color: #ddd;
+        color: #555;
+        background-color: #222;
+        color: #fff;
+        padding: 2.5px 15px;
+        position: absolute;
+        // border: 1px solid #555;
+        top: 0px;
+        left: 0px;
+        // width: 100%;
+        z-index: 99;
+
+    }
+
+    a:link,
+    a:visited {
+        color: black;
+    }
+
+    a:hover {
+        color: black;
+    }
+
+    &.blue {
+
+        &::before {
+            content: 'personal interests'
+        }
+
+        background-color: #344564;
+        background-color: #1b6ac9;
+        background-color: #008CBA;
+        
+        color: #ddd;
+        color: #f1f0ea;
+
+    }
+
+    &.yellow {
+        &::before {
+            content: 'technical skills';
+        }
+
+        background-color: #ffe9a8;
+
+        color: #444;
+
+        a:link,
+        a:visited {
+            color: #666;
+
+        }
+
+    }
+
+    &.green {
+        &::before {
+            content: 'projects'
+        }
+
+        &::after {
+            content: 'coming soon';
+            position: absolute;
+            bottom: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-transform: uppercase;
+            color: #f6ba52;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border-top:  1px solid white;
+            padding-top: 7.5px;
+        }
+        background-color: #2da562;
+
+        color: #ddd;
+        color: #f1f0ea;
+
+        img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+    }
+
+    &.purple {
+        background-color: #725ead;
+        color: #ddd;
+
+    }
+
+    &.red {
+        background-color: #d4442e;
+        background-color: #905;
+        background-color: #ff4564;
+        color: #ddd;
+
+    }
+
+    &.grey {
+        background-color: #596568;
+        color: #ddd;
+
+    }
+
+  }
+  
+  .row::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+    ol,ul {
+        list-style-type: none;
+
+        padding: 0px;
+        margin: 0px;
+    }
+
+    li { 
+        margin-bottom: 15px;
+
+        &.brief {
+            position: relative;
+            
+            line-height: 1.65;
+            
+            &::before {
+                content: '#';
+                position: absolute;
+                width: 30px;
+                height: 30px;
+                text-align: center;
+                right: calc(100% - 35px);
+                
+                font-size: 1rem;
+                // color: #888;
+            }
+            
+            padding: 0 30px 0 30px;
+            // color: #f1f0ce;
+            // background-color: #ffe9a8;
+
+            span {
+                display: block;
+                color: #bbb;
+                font-style: italic;
+            }
+        }
+    }
+
+/* If the browser window is smaller than 600px, make the columns stack on top of each other */
+/* Ref: https://www.w3schools.com/howto/howto_css_equal_height.asp */
+@media only screen and (max-width: 728px) {
+    .container {
+        padding: 15px;
+    }
+    .row {
+        display: block;
+    }
+    .two-thirds,
+    .one-third {
+        display: block;
+        width: 100%;
+    }
+
+    .one-third.green {
+        display: none;
+    }
+
+    .footer-area p {
+        padding-top: 15px;
+    }
+}
+
+
+figure {
+    text-align: center;
+    margin: 0;
+    
+    img {
+      max-width: 100%;
+      height: auto;
+      margin: 0 0 5px 0;
+      
+      outline: 3px solid #f1f0ea;
+      width: 300px;
+  
+    }
+    
+    figcaption {
+        font-style: italic;
+        background-color: #d3d3d4;
+        background-color: #008CBA;
+        background-color: #596568;
+        color: #ddd;
+
+        margin: 0 auto;
+
+        width: 300px;
+        outline: 3px solid #f1f0ea;
+    }
+  }
+  
+  p span {
+      font-size: 0.9rem;
+      color: #888;
+      font-style: italic;
+  }
+
+#logo {
+    position: relative;
+    small {
+        font-size: 0.8rem;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+  }
+
+  a:link,
+  a:visited {
+      text-decoration: none ;
+      border-bottom: 1px dotted black;
+      color: #666;
+  }
+
+  a:hover {
+      color: black;
+      border-bottom: 2px solid black;
+
+  }
+
+
+  p.intro,
+  .row,
+  .site-header {
+      margin-bottom: 30px;
+  }
+
+
+  $tokenPaddingTopBottom: 20px;
+$tokenPaddingLeftRight: 15px;
+$bannerMarginTop: 30px;
+#token
+{
+  width: 450px;
+  min-height: 600px;
+  margin: 0 auto;
+  padding: $tokenPaddingTopBottom $tokenPaddingLeftRight;
+  
+  // font-family: 'Josefin Slab', serif;
+  font-family: 'Arvo', serif;
+  
+  background-color: #fff;
+// background-color: #FFF8DC;
+  outline: 3px solid #999;
+
+  h3  {
+   // background-color: #37424b;
+  line-height: 4;
+  background-color: #FFF8DC;
+  // background-color: #ffe9a8;
+    
+    margin-top: -$tokenPaddingTopBottom;
+    margin-bottom: -$bannerMarginTop;
+  }
+  
+  
+  .banner {
+    color: #ddd;
+    background-color: #37424b;
+    margin: $bannerMarginTop 0 $tokenPaddingLeftRight;
+  }
+  
+  p {
+    font-size: 1.6rem;
+  }
+  
+  &> * {
+    display: block;
+    position: relative;
+    word-wrap: break-word;
+    
+    &::before,
+    &::after {
+      content: '';
+      display: inline-block;
+     
+      position: absolute;
+      height: 100%;
+      width: $tokenPaddingLeftRight;
+      top: 0;
+     
+      background-color: inherit;
+    }
+    
+    &::before {
+      left: -$tokenPaddingLeftRight;  
+    }
+    
+    &::after {
+      right: -$tokenPaddingLeftRight;
+    }
+  }
+}

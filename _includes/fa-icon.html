@@ -1,0 +1,4 @@
+<a href="https://{{ include.fa-type }}{% if include.fa-type == 'codepen' %}.io{% else %}.com{% endif %}/{{ include.username }}">
+  <i class="fa fa-{{ include.fa-type }}"></i>
+  <span class="username">{% if include.display-type %} {{ include.fa-type }} {% else %} {{ include.username }} {% endif %}</span>
+</a>
