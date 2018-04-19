@@ -110,12 +110,6 @@ body {
     a:hover {
         color: black;
     }
-      
-    a:focus {
-        color: white !important;
-        background-color: black;
-        padding: 1.25px 5px;
-    }
 
     &.blue {
 
@@ -327,8 +321,13 @@ figure {
   a:hover {
       color: black;
       border-bottom: 2px solid black;
-
   }
+
+  a:focus {
+        color: white !important;
+        background-color: black;
+        padding: 1.25px 5px;
+ }
 
 
   p.intro,
