@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+ </g>
+ <g display="inline">
+  <title>bg</title>
+  <g id="svg_18">
+   <rect transform="rotate(90 63.00000000000001,63.5625) " fill="#000000" stroke="#000000" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="-1" y="-0.4375" width="128" height="128" id="svg_2" fill-opacity="0" stroke-opacity="0"/>
+   <circle transform="rotate(90 96.369140625,32.05176162719728) " fill="#005ea5" stroke="#005ea5" stroke-width="2" cx="96.369143" cy="32.051762" r="30" id="svg_1"/>
+   <circle transform="rotate(90 31.528320312500004,31.9404296875) " fill="#005ea5" stroke="#005ea5" stroke-width="2" cx="31.528321" cy="31.94043" r="30" id="svg_4"/>
+   <circle transform="rotate(90 63.34081649780273,93.90527343750001) " fill="#005ea5" stroke="#005ea5" stroke-width="2" cx="63.340817" cy="93.905274" r="30" id="svg_5"/>
+   <rect transform="rotate(90 96.41699218750001,61.83594131469727) " stroke-opacity="0" fill-opacity="0" fill="#000000" stroke-width="2" x="95.916987" y="31.83594" width="1" height="60" id="svg_6" stroke="#000000"/>
+   <rect transform="rotate(90 31.626953124999996,61.84180068969727) " stroke-opacity="0" fill-opacity="0" fill="#000000" stroke-width="2" x="31.126952" y="31.841804" width="1" height="60" id="svg_7" stroke="#000000"/>
+   <rect transform="rotate(90 63.35448837280273,125.83300781250001) " stroke-opacity="0" fill-opacity="0" fill="#000000" stroke-width="2" x="62.854491" y="95.833006" width="1" height="60" id="svg_8" stroke="#000000"/>
+   <rect transform="rotate(90 63.569324493408196,93.81642150878908) " fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="33.569323" y="93.316421" width="60" height="1" id="svg_11" stroke="#ffffff"/>
+  </g>
+ </g>
+</svg>
