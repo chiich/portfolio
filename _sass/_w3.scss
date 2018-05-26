@@ -12,7 +12,7 @@ body {
   }
   
   .inner {
-      padding: 15px 0;
+      padding: 15px;
   }
   
   .footer-area p {
@@ -96,11 +96,6 @@ body {
     }
 
     &.blue {
-
-        &::before {
-            /* content: 'personal interests'; */
-        }
-
         background-color: #344564;
         background-color: #1b6ac9;
         background-color: #008CBA;
@@ -111,26 +106,17 @@ body {
     }
 
     &.yellow {
-        &::before {
-            /* content: 'technical skills'; */
-        }
-
         background-color: #ffe9a8;
-
         color: #444;
 
         a:link,
         a:visited {
             color: #666;
-
         }
 
     }
 
     &.green {
-        &::before {
-            /* content: 'projects' */
-        }
 
         &::after {
             /* 
@@ -244,6 +230,10 @@ body {
         display: block;
         width: 100%;
         
+        .inner {
+            padding: 15px 0;
+        }
+        
         &::before, &::after {  
             content: '';
             position: absolute;
@@ -258,7 +248,7 @@ body {
     }
 
     .one-third.green {
-        display: none;
+        /* display: none; */
     }
 
     .footer-area p {
