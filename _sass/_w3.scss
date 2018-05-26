@@ -224,63 +224,6 @@ h1, h2, h3, h4, h5, h6 {
         }
     }
 
-/* If the browser window is smaller than 600px, make the columns stack on top of each other */
-/* Ref: https://www.w3schools.com/howto/howto_css_equal_height.asp */
-@media only screen and (max-width: 728px) {
-    .container {
-        padding: 15px;
-    }
-    .row {
-        display: block;
-    }
-    h1, h2, h3, h4, h5, h6 {
-        margin-bottom: 0.95%;
-    }
-    .two-thirds,
-    .one-third {
-        display: block;
-        width: 100%;
-        
-        .inner {
-            padding: 15px 0;
-        }
-        
-        &::before, &::after {  
-            content: '';
-            position: absolute;
-            top: 0;
-            width: 15px;
-            height: 100%;
-            background-color: inherit;
-        }
-
-        &::before { right: 100%; }
-        &::after { left: 100%; }
-    }
-
-    .one-third.green {
-        /* display: none; */
-        /* overflow: hidden; */
-    }
-
-    .footer-area p {
-        padding-top: 15px;
-    }
-    
-    p.intro {
-        margin-bottom: 5px;
-    
-        + p {
-           margin-top: 0;
-        }
-        
-        strong {
-           font-size: 1.5rem;
-        }
-    }
-    
-}
-
 
 figure {
     text-align: center;
@@ -351,6 +294,64 @@ figure {
   .site-header {
       margin-bottom: 30px;
   }
+
+
+/* If the browser window is smaller than 600px, make the columns stack on top of each other */
+/* Ref: https://www.w3schools.com/howto/howto_css_equal_height.asp */
+@media only screen and (max-width: 728px) {
+    .container {
+        padding: 15px;
+    }
+    .row {
+        display: block;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        margin-bottom: 0.95%;
+    }
+    .two-thirds,
+    .one-third {
+        display: block;
+        width: 100%;
+        
+        .inner {
+            padding: 15px 0;
+        }
+        
+        &::before, &::after {  
+            content: '';
+            position: absolute;
+            top: 0;
+            width: 15px;
+            height: 100%;
+            background-color: inherit;
+        }
+
+        &::before { right: 100%; }
+        &::after { left: 100%; }
+    }
+
+    .one-third.green {
+        /* display: none; */
+        /* overflow: hidden; */
+    }
+
+    .footer-area p {
+        padding-top: 15px;
+    }
+    
+    p.intro {
+        margin-bottom: 5px;
+    
+        + p {
+           margin-top: 0;
+        }
+        
+        strong {
+           font-size: 1.5rem;
+        }
+    }
+    
+}
 
 
   $tokenPaddingTopBottom: 20px;
