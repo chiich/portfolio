@@ -117,7 +117,8 @@ body {
     }
 
     &.green {
-
+        overflow: initial;
+        
         &::after {
             /* 
             content: 'coming soon'; 
@@ -143,6 +144,9 @@ body {
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+            
+            opacity: 0.25%;
+
         }
 
     }
@@ -249,6 +253,7 @@ body {
 
     .one-third.green {
         /* display: none; */
+        overflow: hidden;
     }
 
     .footer-area p {
