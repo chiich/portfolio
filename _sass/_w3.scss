@@ -289,11 +289,12 @@ figure {
  }
 
 
-  p.intro,
-  .row,
-  .site-header {
+    p.intro { margin-bottom: -20px; }
+
+    .row,
+    .site-header {
       margin-bottom: 30px;
-  }
+    }
 
 
 /* If the browser window is smaller than 600px, make the columns stack on top of each other */
