@@ -11,6 +11,10 @@ body {
     line-height: 1.6;
   }
   
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Abril Fatface", serif;
+}
+
   .inner {
       padding: 15px;
   }
@@ -35,7 +39,7 @@ body {
             font-size: 1rem;
             
             strong {
-              font-size: 2.4rem;
+              /* font-size: 2.4rem; */
             }
         }
     }
@@ -229,6 +233,9 @@ body {
     .row {
         display: block;
     }
+    h1, h2, h3, h4, h5, h6 {
+        margin-bottom: 0.95%;
+    }
     .two-thirds,
     .one-third {
         display: block;
@@ -260,6 +267,13 @@ body {
         padding-top: 15px;
     }
     
+    p.intro {
+        margin-bottom: 5px;
+    
+        + p {
+           margin-top: 0;
+        }
+    }
     
 }
 
