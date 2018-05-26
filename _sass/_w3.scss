@@ -12,7 +12,7 @@ body {
   }
   
   .inner {
-      padding: 15px;
+      padding: 15px 0;
   }
   
   .footer-area p {
@@ -58,6 +58,7 @@ body {
   .row {
     display: table; /* Make the container element behave like a table */
     width: 100%; /* Set full-width to expand the whole page */
+    position: relative;
   }
   
   .two-thirds {
@@ -78,30 +79,25 @@ body {
   .two-thirds,
   .one-third {
     margin: 0;
-    padding: 45px 0 0 0;
+    padding: 30px 0 0 0;
     position: relative;
     display: table-cell; /* Make elements inside the container behave like table cells */
     vertical-align: top;
 
     // font-size: 16px;
 
-    &::before {
-        content: 'example';
-        text-transform: uppercase;
-        background-color: #ddd;
-        color: #555;
-        background-color: #222;
-        color: #fff;
-        padding: 2.5px 15px;
+    &::before, &::after {  
+        content: '';
         position: absolute;
-        // border: 1px solid #555;
-        top: 0px;
-        left: 0px;
-        // width: 100%;
-        z-index: 99;
-
+        top: 0;
+        width: 15px;
+        height: 100%;
+        background-color: inherit;
     }
-
+  
+    &::before { right: 100%; }
+    &::after { left: 100%; }
+    
     a:link,
     a:visited {
         color: black;
@@ -114,7 +110,7 @@ body {
     &.blue {
 
         &::before {
-            content: 'personal interests'
+            /* content: 'personal interests'; */
         }
 
         background-color: #344564;
@@ -149,7 +145,7 @@ body {
         }
 
         &::after {
-            content: 'coming soon';
+            /* content: 'coming soon'; */
             position: absolute;
             bottom: 30%;
             left: 50%;
@@ -208,6 +204,8 @@ body {
 
         padding: 0px;
         margin: 0px;
+        border-top: 1px solid;
+        padding-top: 22.5px;
     }
 
     li { 
@@ -221,10 +219,10 @@ body {
             &::before {
                 content: '#';
                 position: absolute;
-                width: 30px;
-                height: 30px;
+                width: 15px;
+                height: 15px;
                 text-align: center;
-                right: calc(100% - 35px);
+                right: calc(100% - 12.5px);
                 
                 font-size: 1rem;
                 // color: #888;
