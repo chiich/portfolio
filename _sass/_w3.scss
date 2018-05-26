@@ -124,7 +124,7 @@ body {
 
     &.yellow {
         &::before {
-            content: 'technical skills';
+            /* content: 'technical skills'; */
         }
 
         background-color: #ffe9a8;
@@ -141,7 +141,7 @@ body {
 
     &.green {
         &::before {
-            content: 'projects'
+            /* content: 'projects' */
         }
 
         &::after {
