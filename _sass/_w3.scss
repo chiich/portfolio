@@ -85,18 +85,6 @@ body {
     vertical-align: top;
 
     // font-size: 16px;
-
-    &::before, &::after {  
-        content: '';
-        position: absolute;
-        top: 0;
-        width: 15px;
-        height: 100%;
-        background-color: inherit;
-    }
-  
-    &::before { right: 100%; }
-    &::after { left: 100%; }
     
     a:link,
     a:visited {
@@ -145,7 +133,8 @@ body {
         }
 
         &::after {
-            /* content: 'coming soon'; */
+            /* 
+            content: 'coming soon'; 
             position: absolute;
             bottom: 30%;
             left: 50%;
@@ -156,6 +145,7 @@ body {
             font-weight: bold;
             border-top:  1px solid white;
             padding-top: 7.5px;
+            */
         }
         background-color: #2da562;
 
@@ -253,6 +243,18 @@ body {
     .one-third {
         display: block;
         width: 100%;
+        
+        &::before, &::after {  
+            content: '';
+            position: absolute;
+            top: 0;
+            width: 15px;
+            height: 100%;
+            background-color: inherit;
+        }
+
+        &::before { right: 100%; }
+        &::after { left: 100%; }
     }
 
     .one-third.green {
@@ -262,6 +264,8 @@ body {
     .footer-area p {
         padding-top: 15px;
     }
+    
+    
 }
 
 
