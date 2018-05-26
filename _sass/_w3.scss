@@ -299,7 +299,7 @@ figure {
 
 /* If the browser window is smaller than 600px, make the columns stack on top of each other */
 /* Ref: https://www.w3schools.com/howto/howto_css_equal_height.asp */
-@media only screen and (max-width: 728px) {
+@media only screen and (max-width: 770px) {
     .container {
         padding: 15px;
     }
