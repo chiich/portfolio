@@ -93,16 +93,19 @@ h1, h2, h3, h4, h5, h6 {
     a:link,
     a:visited {
         color: black;
+        color: inherit;
+        border-bottom-color: inherit;
     }
 
     a:hover {
         color: black;
+        font-weight: bold;
     }
 
     &.blue {
         background-color: #344564;
-        background-color: #1b6ac9;
         background-color: #008CBA;
+        background-color: #1b6ac9;
         
         color: #ddd;
         color: #f1f0ea;
@@ -139,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
             */
         }
         background-color: #2da562;
-
+        background-color: #177960;
         color: #ddd;
         color: #f1f0ea;
 
@@ -218,8 +221,9 @@ h1, h2, h3, h4, h5, h6 {
 
             span {
                 display: block;
-                color: #bbb;
+                /* color: #bbb; */
                 font-style: italic;
+                font-size: 65%;
             }
         }
     }
