@@ -10,7 +10,12 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     line-height: 1.6;
   }
-  
+
+::-moz-selection,
+::selection {
+        background: #FFC600;
+ }
+
 h1, h2, h3, h4, h5, h6 {
     font-family: "Abril Fatface", serif;
 }
@@ -285,9 +290,7 @@ figure {
       border-bottom: 2px solid black;
   }
 
-    a:focus,
-    ::-moz-selection,
-    ::selection {
+    a:focus {
         color: #362A00 !important;
         background-color: #FFC600;
         outline: #FFC600 solid 3px;
