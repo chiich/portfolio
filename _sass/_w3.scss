@@ -11,7 +11,10 @@ body {
     line-height: 1.6;
   }
 
-::-moz-selection,
+::-moz-selection {
+        background: #FFC600;
+ }
+
 ::selection {
         background: #FFC600;
  }
