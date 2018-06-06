@@ -285,7 +285,9 @@ figure {
       border-bottom: 2px solid black;
   }
 
-  a:focus {
+    a:focus,
+    ::-moz-selection,
+    ::selection {
         color: #362A00 !important;
         background-color: #FFC600;
         outline: #FFC600 solid 3px;
