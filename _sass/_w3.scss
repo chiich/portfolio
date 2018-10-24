@@ -80,10 +80,10 @@ h2 {
   }
   
   h2 {
-    curosr: pointer;
+    cursor: pointer;
     
-    &:hover + ul,
-    &:hover + ol {
+    + ul.active,
+    + ol.active {
      display: initial; 
     }
   }
@@ -92,7 +92,7 @@ h2 {
 .main-img {
   background: whitesmoke;
   background-repeat: no-repeat;
-  background-position: 20% 0;
+  background-position: 0% 0%;
   background-size: contain;
   background-image: url('/assets/images/214808-20171105-180x450.jpg');
 }
@@ -367,7 +367,14 @@ a:hover {
     margin-bottom: 0;
   }
 
-
+.after-content {
+  text-align: center;
+  border-top: 1px solid;
+  
+  span {
+    display: block;
+  }
+}
 /* If the browser window is smaller than 600px, make the columns stack on top of each other */
 /* Ref: https://www.w3schools.com/howto/howto_css_equal_height.asp */
 @media only screen and (max-width: 770px) {
