@@ -76,7 +76,16 @@ h2 {
     right: 100%;
     width: 100%;
     margin-right: 15px;
-    // display: none;
+    display: none;
+  }
+  
+  h2 {
+    curosr: pointer;
+    
+    &:hover + ul,
+    &:hover + ol {
+     display: initial; 
+    }
   }
 }
 
@@ -85,7 +94,7 @@ h2 {
   background-repeat: no-repeat;
   background-position: 20% 0;
   background-size: contain;
-  background-image: url('/assets/images/214888-20171105-180x450.jpg');
+  background-image: url('/assets/images/214808-20171105-180x450.jpg');
 }
 
 .row {
@@ -105,8 +114,6 @@ h2 {
   // display: block;
   // float: left;
   width: 33%;
-
-  color: #f1f0ce;
 }
 
 .two-thirds,
