@@ -57,15 +57,35 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: auto;
   padding: 30px;
 }
-
+.cursive {
+  font-family: 'Dr Sugiyama', cursive;
+  // font-family: 'Princess Sofia', cursive;
+  // font-family: 'Dekko', cursive;
+  // font-family: 'Waiting for the Sunrise', cursive;
+  // font-family: 'Merienda One', cursive;
+  // font-family: 'Kaushan Script', cursive;
+  // font-family: 'Charmonman', cursive;
+  // font-family: 'Pacifico', cursive;
+  
+  // https://css-tricks.com/svg-text-typographic-designs/
+}
 h1 {
   // border-bottom: 3px solid #DDDDDD;
   margin: 0;
   padding: 0 0 15px 0;
+  
+  &.cursive {
+    font-size: 3rem;
+  }
 }
 
 h2 {
   font-size: calc(1.5rem * 0.835);
+  
+  &.cursive {
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
 }
 
 .wrap {
@@ -126,7 +146,7 @@ h2 {
 .two-thirds,
 .one-third {
   margin: 0;
-  padding: 30px 0 0 0;
+  padding: 0;
   position: relative;
   display: table-cell; /* Make elements inside the container behave like table cells */
   vertical-align: top;
@@ -265,7 +285,7 @@ h2 {
 
       padding: 0px;
       margin: 0px;
-      border-top: 1px solid whitesmoke;
+      border-top: 15px solid transparent;
       padding-top: 22.5px;
   }
 
