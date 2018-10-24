@@ -98,6 +98,7 @@ h2 {
     right: 100%;
     width: 100%;
     /* margin-right: 15px; */
+    background-color: whitesmoke;
     display: none;
   }
   
@@ -117,7 +118,7 @@ h2 {
 }
 
 .main-img {
-  background: whitesmoke;
+  background-color: inherit;
   background-repeat: no-repeat;
   background-position: 0% 0%;
   background-size: contain;
@@ -303,7 +304,7 @@ h2 {
               width: 15px;
               height: 15px;
               text-align: center;
-              right: calc(100% - 12.5px);
+              right: calc(100% - 22.5px);
 
               font-size: 1rem;
               // color: #888;
