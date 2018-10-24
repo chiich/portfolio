@@ -25,7 +25,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .inner {
-    padding: 15px;
+  padding: 15px;
+  padding-bottom: 0;
 }
 
 .footer-area p {
@@ -81,11 +82,11 @@ h2 {
   }
   
   h2 {
-    border-bottom: 1px solid transparent;
+    border-bottom: 1px solid;
     
     &:hover {
       cursor: pointer;
-      border-color: inherit;
+      /* border-color: inherit; */
     }
     
     + ul.active,
