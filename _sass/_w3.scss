@@ -80,7 +80,12 @@ h2 {
   }
   
   h2 {
-    cursor: pointer;
+    border-bottom: 1px solid transparent;
+    
+    &:hover {
+      cursor: pointer;
+      border-color: inherit;
+    }
     
     + ul.active,
     + ol.active {
