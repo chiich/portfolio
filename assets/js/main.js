@@ -6,7 +6,7 @@ $(function() {
   $subheadings.on('click', function(e) {
     e.preventDefault();
     var $sibling = $(this).siblings('ul,ol').first();
-    $container.find('ul.active').removeClass('active');
+    $container.find('.active').removeClass('active');
     $sibling.addClass('active');
   });
 });
