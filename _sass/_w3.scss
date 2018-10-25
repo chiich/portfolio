@@ -56,6 +56,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: auto;
   margin-right: auto;
   padding: 30px;
+  
+  > .row {
+    height: 100vh;
+  }
 }
 .cursive {
   font-family: 'Dr Sugiyama', cursive;
