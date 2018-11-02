@@ -586,3 +586,18 @@ p {
 }
 
 // ------------------
+
+
+.fa {
+  &-github,
+  &-instagram,
+  &-linkedin {
+      &::before {
+        padding: 7.5px;
+        border: 1px solid;
+        border-radius: 100%;
+        color: white;
+        background: rebeccapurple;
+      }
+  }
+}
