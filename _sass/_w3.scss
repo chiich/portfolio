@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 30px;
   
   > .row {
-    height: 100vh;
+    height: 480px;
   }
 }
 .cursive {
@@ -125,7 +125,7 @@ h2 {
   background-color: whitesmoke;
   background-repeat: no-repeat;
   background-position: 0% 0%;
-  background-size: contain;
+  background-size: cover;
   background-image: url('/assets/images/214808-20171105-180x450.jpg');
 }
 
