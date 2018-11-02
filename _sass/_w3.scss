@@ -594,10 +594,21 @@ p {
   &-linkedin {
       &::before {
         padding: 7.5px;
-        border: 1px solid;
+        border: 2px solid;
         border-radius: 100%;
-        color: white;
-        background: rebeccapurple;
+        /* color: white; */
+        background: #177960;
       }
+    
+    a & {
+      border-bottom: initial;
+    }
+    a:hover & {
+      font-weight: normal;
+    }
   }
+}
+
+li.brief {
+  display: inline;
 }
