@@ -596,19 +596,11 @@ p {
         padding: 7.5px;
         border: 2px solid;
         border-radius: 100%;
-        /* color: white; */
+        color: white; 
         background: #177960;
       }
     
-    a & {
-      border-bottom: initial;
-    }
-    a:hover & {
-      font-weight: normal;
-    }
   }
 }
 
-li.brief {
-  display: inline;
-}
+
