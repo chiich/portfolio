@@ -2,7 +2,10 @@
 <title>Site Maintenance</title>
 <style>
   body { text-align: center; padding: 15px; font: 20px Helvetica, sans-serif; color: #333; }
-  h1 { font-size: 125%; text-transform: uppercase; }
+  h1 { text-transform: uppercase;
+    font-size: calc(25px + (50 - 25) * ((100vw - 300px) / (650 - 300)));
+    line-height: calc(1.3em + (1.5 - 1.3) * ((100vw - 300px)/(650 - 300)));
+  }
   article { display: block; text-align: left; max-width: 650px; margin: 0 auto; }
   a { color: #dc8100; text-decoration: none; }
   a:hover { color: #333; text-decoration: none; }
