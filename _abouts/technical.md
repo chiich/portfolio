@@ -1,6 +1,6 @@
 ---
 title: Technical Skills
-image_path: http://lorempixel.com/200/200/sport/
+image_path: http://lorempixel.com/200/200/sports/
 ---
 
 - Vanilla ES5 JavaScript (Yeah, yeah, ES6, I know...)
