@@ -8,19 +8,19 @@
 
     <p>Here's a brief on me...</p>
 
-  <!-- <div class="wrapper"> -->
-    <!-- <a class="site-title" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a> -->
+    <div class="wrapper">
+      <a class="site-title" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
 
-    <!-- <nav class="site-nav">
-      <div class="trigger">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <span>{{ paginator.page }}</span>
-          <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </nav> -->
-  <!-- </div> -->
+      <nav class="site-nav">
+        <div class="trigger">
+          {% for my_page in site.pages %}
+            {% if my_page.title %}
+            <span>{{ paginator.page }}</span>
+            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </nav>
+    </div>
   </div>
 </header>
