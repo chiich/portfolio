@@ -41,3 +41,5 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+collections:
+  about: 
