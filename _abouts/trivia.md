@@ -1,6 +1,6 @@
 ---
 title: Trivia
-image_path: http://lorempixel.com/320/480/animal/
+image_path: http://lorempixel.com/200/200/animal/
 ---
 
 Good food and cooking... My instagram page might sell this assertion better...
