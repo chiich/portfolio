@@ -16,6 +16,12 @@
     background-size: cover;
     background-image: url('/assets/images/214808-20171105-180x450.jpg');
   }
+  
+  article::before { content: ''; display: block; max-width: 320px; width: 100%; min-height: 480px;
+    position: absolute; top: 100%; transform: translateY(-100%);
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+  }
 </style>
 
 <h1>#backsoon!</h1>
