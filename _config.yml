@@ -20,8 +20,8 @@ description: > # this means to ignore newlines until "baseurl:"
   I mainly work on Public-sector/Government sites, using tech such as
   Drupal 8, JavaScript (ES5) and CSS, HTML5. Web Accessibility is always
   a big consideration, as well as support for IE8 (forgive me) and greater.
-baseurl: "/portfolio" # the subpath of your site, e.g. /blog
-url: "http://chiich.github.io/portfolio" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://chee.me.uk" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: pretty
 github_username:  chiich
 codepen_username: chiich
