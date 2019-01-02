@@ -74,6 +74,10 @@ header {
     color: #2C2721;
     padding: 1.5rem;
     display: none;
+    
+    &.showing {
+      display: block;
+    }
   }
   
   nav {
