@@ -1,19 +1,24 @@
-<header class="site-header" role="banner">
-
-
-    <div class="wrapper">
-      <a class="site-title" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
-
-      <nav class="site-nav">
-        <div class="trigger">
-          {% for my_page in site.pages %}
-            {% if my_page.title %}
-            <span>{{ paginator.page }}</span>
-            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-            {% endif %}
-          {% endfor %}
-        </div>
-      </nav>
+<header>
+  <div class="inner">
+    
+  <h1 id="logo">Frie.</h1>
+  <nav>
+    <ul>
+      <li>
+        <a href="javascript:void(0)" class="menu-link more">frie?</a>
+      </li>
+    </ul>
+  </nav>
+  </div>
+  <section>
+    <div class="inner">
+      
+    <dl>
+      <dt>Friedrich</dt>
+      <dd>free-dreek</dd>
+      <dt>Nietzsche</dt>
+      <dd>nee-chey</dd>
+    </dl>
     </div>
-
+  </section>
 </header>
