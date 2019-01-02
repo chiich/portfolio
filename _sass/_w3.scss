@@ -22,6 +22,10 @@ p, dl {
 }
 p {
   margin-bottom: 1rem;
+  
+  header section & {
+    display: block;
+  }
 }
 a {
   text-decoration: none;
