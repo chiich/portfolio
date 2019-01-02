@@ -149,6 +149,7 @@ footer {
     width: 75%;
     padding-left: 0;
     padding-right: 0;
+    max-width: 48 0px;
   }
 
   header nav {
@@ -163,7 +164,7 @@ footer {
 @media only screen and (min-width: 992px) {
   .inner {
     width: 50%;
-    max-width: 640px;
+
   }
   
   .contact {
