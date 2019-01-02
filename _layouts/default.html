@@ -4,29 +4,13 @@
   {% include head.html %}
 
   <body>
-    <!-- Page container  -->
-    <div id="paged" class="container">
-      <div class="row">
-        <div class="wrap one-third main-img"></div>
-        <div class="wrap one-third">
-            {% include header.html %}
-          
-            <div class="inner">
-              <h1 id="logo"><a href="/" title="Short form of my full name - takes you to the Homepage">Chie.</a></h1>
+    {% include header.html %}
+    
+    <main>
+      {{ content }}
+    </main>
 
-              <p class="intro"><strong>Welcome</strong></p>
-
-              <p>My name is <a href="https://uk.linkedin.com/in/ichongiric" title="My full name - takes you to my Linkedin profile page">Chiemezie Ichongiri</a> and I currently work as a Frontend Web Developer in Norwich, England.</p>
-
-              <p>Here's a brief on me...</p>
-          </div>
-
-            {{ content }}
-        </div>
-      </div>
-
-        {% include footer.html %}
-    </div>
+    {% include footer.html %}
         
   </body>
   <script src="/assets/js/main.js"></script>
