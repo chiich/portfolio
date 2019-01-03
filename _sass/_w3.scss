@@ -114,6 +114,7 @@ footer {
   padding-top: 30px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   
   h2 {
     flex-basis: 25%;
@@ -123,7 +124,6 @@ footer {
   }
   ul {
     // flex: 1 0 auto;
-    padding-top: 7.5px;
   }
   
   li {
