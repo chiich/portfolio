@@ -96,7 +96,17 @@ main {
 footer {
   background-color: #1F4A2E;
   color: #eaeaea;
-  flex: 1;
+//   flex: 1;
+  
+  .inner {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+    @media only screen and (min-width: 480px) {
+      flex-direction: row;
+    }
+  }
 }
 
 #logo,
