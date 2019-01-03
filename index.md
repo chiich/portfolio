@@ -16,6 +16,7 @@ I use and specialise mainly in...
 - MySQL
 - WordPress
 - Drupal 8
+- Jekyll
 - Jenkins
 - Gulp
 - Webpack
