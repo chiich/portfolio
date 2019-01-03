@@ -5,6 +5,21 @@ Nno. Hi.
 
 I currently work as a Frontend Web Developer in Norwich, UK.
 
-I specialise mainly in **HTML, CSS, JavaScript `(ES5, jQuery)`, PHP, WordPress** and **Drupal 8** - _more info on these to come_.
+I use and specialise mainly in...
+
+{:.skills}
+- HTML
+- CSS
+- JavaScript
+- jQuery
+- PHP
+- MySQL
+- WordPress
+- Drupal 8
+- Jenkins
+- Gulp
+- Webpack
+
+_- more info on these to come_.
 
 
