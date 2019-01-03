@@ -155,6 +155,7 @@ footer {
   
   h2 {
     flex-basis: 25%;
+    font-size: 1em;
     &::after {
       content: ':';
     }
