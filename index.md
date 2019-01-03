@@ -1,7 +1,7 @@
 ---
 layout: home
 ---
-Nno. Hi.
+Nnoo. Hi.
 
 I currently work as a Frontend Web Developer in Norwich, UK.
 
