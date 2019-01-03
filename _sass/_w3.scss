@@ -22,7 +22,7 @@ p, dl {
   margin: 0;
 }
 p {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   
   header section & {
     display: block;
@@ -115,7 +115,12 @@ footer {
 }
 
 .intro {
-//   font-size: 2rem;
+  
+  p:first-child {
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-bottom: 2.5rem;
+  }
   
   em {
     font-size: 75%;
