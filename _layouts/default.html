@@ -4,13 +4,20 @@
   {% include head.html %}
 
   <body>
-    {% include header.html %}
-    
-    <main>
-      {{ content }}
-    </main>
+    <div class="page-main">
+      {% include header.html %}
 
-    {% include footer.html %}
+      <main>
+        {{ content }}
+      </main>
+
+      {% include footer.html %}
+    </div>
+    
+    <div class="page-side">
+      <img alt="official logo - beta" src="/assets/images/logo-24042017-02.svg">
+    </div>
+
         
   </body>
   <script src="/assets/js/main.js"></script>
