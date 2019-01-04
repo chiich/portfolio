@@ -206,6 +206,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  display: none;
 }
 
 @media only screen and (min-width: 480px) {
@@ -215,6 +216,7 @@ footer {
 }
 @media only screen and (min-width: 640px) {
   body { flex-direction: row  }
+  .page-side { display: flex; }
   .intro {
     .skills {
       font-size: 2.25rem;
