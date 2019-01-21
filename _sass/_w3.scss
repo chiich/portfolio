@@ -145,11 +145,16 @@ footer {
         display: inline-block;
         width: 44px;
         text-align: center;
+        content: none;
       }
       &:last-child::after { 
         content: none;
         display: none;
       }
+      border: 1px solid #1F4A2E;
+      padding: 1px 9px;
+      margin-left: -1px;
+      margin-top: -1px;
     }
   }
 }
