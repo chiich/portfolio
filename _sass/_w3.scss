@@ -237,7 +237,7 @@ footer {
     font-family: "Abril Fatface", serif;
   
     &::after {
-      content: '';
+      content: none;
       width: 7.5px;
       height: 7.5px;
       border-radius: 100%;
