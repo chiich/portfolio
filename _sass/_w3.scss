@@ -159,10 +159,10 @@ footer {
   }
 }
 .contact {
-  padding-top: 60px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  // padding-top: 60px;
+  // display: flex;
+  // justify-content: space-between;
+  // align-items: center;
   
   h2 {
     flex-basis: 40%;
@@ -202,16 +202,111 @@ footer {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .page-side {
   flex: 3;
   background-color: #1F4A2E;
+  background-color: navajowhite;  
   color: #eaeaea;
   display: flex;
   justify-content: center;
   align-items: center;
   display: none;
+}
+
+#logo--secondary { 
+  display: flex; 
+  color: black; 
+
+  img { padding: 7.5px 15px; width: 20%; height: 20%; }
+
+  .content { padding-left: 15px; border-left: 2px solid; display: flex; flex-direction: column; justify-content: space-between; }
+
+  p { display: block; padding: 0; margin-bottom: 0.25rem; }
+
+  .name { 
+    text-transform: uppercase; 
+    font-weight: bold; 
+    letter-spacing: .7px; 
+    letter-spacing: 4.75px; 
+    position: relative; 
+    font-size: 2.5rem; 
+    font-size: 3rem; 
+    font-family: "Abril Fatface", serif;
+  
+    &::after {
+      content: '';
+      width: 7.5px;
+      height: 7.5px;
+      border-radius: 100%;
+      background: rebeccapurple;
+      background: #177960;
+      position: absolute;
+      bottom: 10px;
+      bottom: 12px;
+      right: 1px;
+      right: 4px;
+    }
+  }
+
+  .occupation { letter-spacing: -0.75px; }
+
+  a { 
+    color: inherit;
+    box-shadow: none;
+    text-decoration: underline;
+    padding: 5px 10px;
+    transition: color 0.1s cubic-bezier(0.6, -0.28, 0.74, 0.05);
+
+    &:first-child { padding-left: 0; }
+
+    &:hover {
+      color: #177960;
+    }
+  }
+}
+
+#logo--primary {
+  
+  img {
+    width: 10%;
+    height: 10%;
+    display: block;
+    margin: 30px auto;
+  }
+  .content { padding-left: 15px; border-left: 2px solid; display: flex; flex-direction: column; justify-content: space-between; }
+  .content {
+    border-left: 20px solid;
+    padding: 30px 15px;
+  }
+  .name { 
+    text-transform: uppercase; 
+    font-weight: bold; 
+    letter-spacing: .7px; 
+    letter-spacing: 4.75px; 
+    position: relative; 
+    font-size: 2.5rem; 
+    font-size: 3rem; 
+    font-family: "Abril Fatface", serif;
+  }
+
+  .name {
+    font-size: 2.5rem;
+    text-transform: none;
+  }
+
+  a {
+    padding: 5px 10px;
+    transition: color 0.1s cubic-bezier(0.6, -0.28, 0.74, 0.05);
+
+    &:first-child {
+      padding-left: 0;
+    }
+  }
+
+
 }
 
 @media only screen and (min-width: 480px) {
@@ -226,6 +321,10 @@ footer {
     .skills {
       font-size: 2.25rem;
     }
+  }
+
+  #logo--primary {
+    display: none;
   }
 }
 @media only screen and (min-width: 992px) {
