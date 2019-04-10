@@ -218,6 +218,7 @@ footer {
 
 #logo--secondary { 
   display: flex; 
+  align-items; center;
   color: black; 
 
   img { padding: 7.5px 15px; width: 20%; height: 20%; }
@@ -228,9 +229,10 @@ footer {
 
   .name { 
     text-transform: uppercase; 
+    text-transform: none;
     font-weight: bold; 
     letter-spacing: .75px; 
-    letter-spacing: 4.75px; 
+//     letter-spacing: 4.75px; 
     position: relative; 
     font-size: 2.5rem; 
     font-size: 3rem; 
