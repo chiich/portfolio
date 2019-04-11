@@ -277,6 +277,10 @@ footer {
     height: 10%;
     display: block;
     margin: 30px auto;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
   }
   .content { padding-left: 15px; border-left: 2px solid; display: flex; flex-direction: column; justify-content: space-between; }
   .content {
