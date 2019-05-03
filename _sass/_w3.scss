@@ -223,9 +223,9 @@ footer {
 
   img { padding: 7.5px 15px; width: 20%; height: 20%; }
 
-  .content { padding-left: 15px; border-left: 2px solid; display: flex; flex-direction: column; justify-content: space-between; }
+  .content { padding: 15px; border-left: 2px solid; display: flex; flex-direction: column; justify-content: space-between; }
 
-  p { display: block; padding: 0; margin-bottom: 0.25rem; }
+  p { display: block; padding: 0; /* margin-bottom: 0.25rem; */ }
 
   .name { 
     text-transform: uppercase; 
@@ -253,7 +253,7 @@ footer {
     }
   }
 
-  .occupation { letter-spacing: -0.75px; }
+  .occupation { letter-spacing: -0.75px; margin-bottom: 5rem; }
 
   a { 
     color: inherit;
