@@ -28,7 +28,7 @@ p, dl {
   margin: 0;
 }
 p {
-  margin-bottom: 0.5rem;
+  /* margin-bottom: 0.5rem; */
   
   header section & {
     display: block;
@@ -286,6 +286,7 @@ footer {
   .content {
     border-left: 20px solid;
     padding: 30px 15px;
+    line-height: 1.4;
   }
   .name { 
     text-transform: uppercase; 
@@ -301,7 +302,9 @@ footer {
     font-size: 3.125rem;
     text-transform: none;
   }
-
+  
+  .occupation { margin-bottom: 5rem; }
+  
   a {
     padding: 5px 10px;
     transition: color 0.1s cubic-bezier(0.6, -0.28, 0.74, 0.05);
