@@ -21,7 +21,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Drupal 8, JavaScript (ES5 and jQUery) and CSS, HTML5. Web Accessibility is always
   a big consideration for me, as well as support for IE9 and greater.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://chee.me.uk" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://chee.me.uk" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: pretty
 github_username:  chiich
 codepen_username: chiich
