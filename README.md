@@ -34,7 +34,6 @@ You need follow the Jekyll tutorial and have the following installed:
 ### Who do I talk to? ###
 
 * Repo owner or admin
-Chiemezie Ichongiri; a.k.a Chie __chee__
+Chiemezie (_Chie_) Ichongiri
 * Other community or team contact
-https://www.instagram.com/ichongiribc
 https://www.github.com/chiich
