@@ -1,3 +1,3 @@
-My personal website, implemented using Node.js and hosted on AWS
-
-http://chee.me.uk
+Personal website.
+Created using Jekyll, hosted on Github.
+Watch this space.
